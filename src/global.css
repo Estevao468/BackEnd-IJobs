@@ -1,0 +1,803 @@
+.title{
+  display: flex;
+  color: rgb(255, 255, 255);
+  background-color: blue;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px 10px ;
+  display: flex;
+
+}
+.Cabecalho{
+    height: 8vmin;
+    width: 99.7%;
+    float: center;
+    border: 2px solid;
+    vertical-align: middle; 
+    font-size: 15px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Rotas{
+    float: left;
+    height: 4vmin;
+    width: 5rem;
+    margin: 1rem;
+    border: 1px solid; 
+    font-size: 16px; 
+    border-radius: 13px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    line-height: 1.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.Cadastro{
+    text-align: center;
+  }
+  .Login {
+    text-align: center;
+  }
+  /*///////Login///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  .container {
+    height: 40vmin;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .container-login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=900&t=st=1658409131~exp=1658409731~hmac=bd86f37af01d57a56644e4f617952ccac81a485c082cc22cd4a4b9157324d57c");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  .warp-login{
+    
+    width: 23%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 80px 28px 40px 35px;
+    
+  }
+  .font-size{
+    width: 27%;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 37px;
+  }
+  
+  .login-form-title{
+    display: block;
+    color: blue;
+    text-align: left;
+    font-size: 27px;
+    padding: 5px 0px 60px;
+    
+  }
+  
+  .nickName{
+    display: block;
+    font-size: 50px;
+    color: black;
+    line-height: 1.2;
+    text-align: left; 
+  }
+  
+  .password{
+    display: block;
+    font-size: 40px;
+    color: black;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  .form-control{
+    font-size: 15px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    display: block;
+    width: 93%;
+    height: 30px;
+    background-color: transparent;
+    opacity: 55%;
+    padding: 0 5px;
+  }
+  
+  .form-group{
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #000000;
+  }
+  
+  .login-form-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding: 10px 10px;
+  }
+  .form-btn{
+    font-size: 13px;
+    border-radius: 13px;
+    border: none;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 30px;
+    background-color: blue;
+  
+  }
+  
+  .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .txt1 {
+    font-size: 13px;
+    color: #111;
+    line-height: 1.5;
+    padding-right: 5px;
+  }
+  
+  .txt2 {
+    font-size: 13px;
+    color: blue;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+/*///////////Cadastro////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  .container1 {
+    height: 100vmin;
+    width: 100%;
+    margin: 0rem;
+    display: flex;
+    background-image: url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=900&t=st=1658409131~exp=1658409731~hmac=bd86f37af01d57a56644e4f617952ccac81a485c082cc22cd4a4b9157324d57c");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container-form1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0px ;
+    }
+    .warp-login1{
+      width: 100%;
+      height: 50%;
+      background-color: rgb(255, 255, 255);
+      border-radius: 0px;
+      overflow: hidden;
+      padding: 80px 34px 250px 35px;
+    }
+    .font-size1{
+      width: 27%;
+      position: relative;
+      border-bottom: 2px solid #adadad;
+      margin-bottom: 37px;
+    }
+  .form-title1{
+    display: flex;
+    color: blue;
+    text-align: left;
+    font-size: 27px;
+    padding: 20px 20px ;
+  }
+  .form-group1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.1rem 20px;
+  }
+  .input-box1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: #000000;
+    padding:1px 1px;
+  }
+  .form-control1{
+    font-size: 15px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    display: block;
+    width: 93%;
+    height: 30px;
+    background-color: transparent;
+    opacity: 55%;
+    padding: 0 6px;
+  }
+  .form-control-des1{
+    font-size: 15px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    display: block;
+    width: 93%;
+    height: 50px;
+    background-color: transparent;
+    opacity: 55%;
+    padding: 0 6px;
+  }
+  .login-form-btn1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding: 0px;
+  }
+  .form-btn1{
+    font-size: 13px;
+    border-radius: 13px;
+    border: none;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 30px;
+    background-color: blue;
+  }
+  .text-center1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .txt1-1 {
+    font-size: 13px;
+    color: #111;
+    line-height: 1.5;
+    padding-right: 5px ;
+  }
+  .txt2-1 {
+    font-size: 13px;
+    color: blue;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+/*/////////Editar Serviço///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.container2 {
+  height: 100vmin;
+  width: 100%;
+  display: flex;
+  background-image: url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=900&t=st=1658409131~exp=1658409731~hmac=bd86f37af01d57a56644e4f617952ccac81a485c082cc22cd4a4b9157324d57c");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-form2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+  .warp-login2{
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    overflow: hidden;
+    padding: 4rem 0rem 3rem 2rem;
+    border-radius: 1rem;
+  }
+  .font-size2{
+    width: 27%;
+    position: relative;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 37px;
+  }
+.form-title2{
+  display: flex;
+  color: blue;
+  text-align: left;
+  font-size: 1.7rem;
+  padding: 1px 50px 30px 20px;
+}
+.form-group2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.1rem 20px;
+}
+.input-box2{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: #000000;
+  padding:1px 1px;
+}
+.form-control2{
+  font-size: 15px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  display: block;
+  width: 70%;
+  height: 30px;
+  background-color: transparent;
+  opacity: 55%;
+  padding: 0 6px;
+}
+.form-control-12{
+  font-size: 15px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  display: block;
+  width: 70%;
+  height: 60px;
+  background-color: transparent;
+  opacity: 55%;
+  padding: 0 6px;
+}
+.form-control-22{
+  font-size: 15px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  display: block;
+  width: 40%;
+  height: 30px;
+  background-color: transparent;
+  opacity: 55%;
+  padding: 0 6px;
+}
+.form-group2{
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+}
+
+.login-form-btn2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding: 10px 10px;
+}
+.form-btn2{
+  font-size: 13px;
+  border-radius: 13px;
+  border: none;
+  color: rgb(0,0,225);
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+
+}
+.form-btn-12{
+  font-size: 13px;
+  border-radius: 13px;
+  border: none;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  background-color: blue;
+}
+
+.text-center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  padding-left: 4rem;
+}
+.coment2{
+  opacity: 60%;
+  font-size: 14px;
+  padding-left: 1px;
+}
+
+.toggle2{
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+}
+.toggle2 input{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider2{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 1rem;
+}
+
+.slider2:before{
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 25px;
+  left: 4px;
+  top: 3px;
+  border-radius: 1rem;
+  background-color: white;
+  transition: 0.4s;
+}
+input:checked + .slider2{
+  background-color: blue;
+}
+
+input:checked + .slider2:before{
+  transform: translateX(24px);
+}
+.legends2{
+  color: #000000;
+  padding:10px 10px;
+  position: relative;
+  display: inline-flex;
+  width: 60px;
+  height: 30px;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+/*//////////Serviço////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.container3 {
+  height: 100vmin;
+  width: 100%;
+  margin: 0rem;
+  display: flex;
+  background-image: url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=900&t=st=1658409131~exp=1658409731~hmac=bd86f37af01d57a56644e4f617952ccac81a485c082cc22cd4a4b9157324d57c");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-form3{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+  .warp-login3{
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    overflow: hidden;
+    padding: 4rem 0rem 3rem 2rem;
+    border-radius: 1rem;
+  }
+  .font-size3{
+    width: 27%;
+    position: relative;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 37px;
+  }
+.form-title3{
+  display: flex;
+  color: blue;
+  text-align: left;
+  font-size: 1.7rem;
+  padding: 1px 50px 30px 20px;
+}
+.form-group3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.1rem 20px;
+}
+.input-box3{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  color: #000000;
+  padding:1px 1px;
+}
+.form-control3{
+  font-size: 15px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  display: block;
+  width: 70%;
+  height: 30px;
+  background-color: transparent;
+  opacity: 55%;
+  padding: 0 6px;
+}
+.form-control-13{
+  font-size: 15px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  display: flex;
+  width: 70%;
+  height: 60px;
+  background-color: transparent;
+  opacity: 55%;
+  padding: 0 6px;
+}
+.form-control-23{
+  font-size: 15px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  display: block;
+  width: 40%;
+  height: 30px;
+  background-color: transparent;
+  opacity: 55%;
+  padding: 0 6px;
+}
+.form-group3{
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+}
+
+.login-form-btn3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding: 10px 10px;
+}
+.form-btn3{
+  font-size: 13px;
+  border-radius: 13px;
+  border: none;
+  color: rgb(0,0,225);
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+
+}
+.form-btn-13{
+  font-size: 13px;
+  border-radius: 13px;
+  border: none;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  background-color: blue;
+}
+
+.text-center3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  padding-left: 4rem;
+}
+.coment3{
+  opacity: 60%;
+  font-size: 14px;
+  padding-left: 1px;
+}
+
+.toggle3{
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+}
+.toggle3 input{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider3{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 1rem;
+}
+
+.slider3:before{
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 25px;
+  left: 4px;
+  top: 3px;
+  border-radius: 1rem;
+  background-color: white;
+  transition: 0.4s;
+}
+input:checked + .slider3{
+  background-color: blue;
+}
+
+input:checked + .slider3:before{
+  transform: translateX(24px);
+}
+.legends3{
+  color: #000000;
+  padding:10px 10px;
+  position: relative;
+  display: inline-flex;
+  width: 60px;
+  height: 30px;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+/*/////////Perfil////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.container4 {
+  height: 49rem;
+  width: 100%;
+  display: flex;
+  background-image: url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=900&t=st=1658409131~exp=1658409731~hmac=bd86f37af01d57a56644e4f617952ccac81a485c082cc22cd4a4b9157324d57c");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-form4{
+  float: center;
+  width: 85rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .warp-login4{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding: 3rem 4rem 1rem 2rem;
+    border-radius: 1rem;
+  }
+  .font-size4{
+    width: 27%;
+    position: relative;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 37px;
+  }
+.form-title4{
+  display: flex;
+  color: blue;
+  text-align: left;
+  font-size: 2rem;
+  padding: 30px 20px 20px;
+}
+.form-group4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.1rem 20px;
+}
+.input-box4{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #000000;
+  padding:1px 1px;
+}
+.form-control4{
+  font-size: 14px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  display: flex;
+  width: 60%;
+  height: 30px;
+  background-color: transparent;
+  opacity: 55%;
+  padding: 0 6px;
+}
+.form-control-14{
+  font-size: 14px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  display: block;
+  width: 60%;
+  height: 60px;
+  opacity: 60%;
+  background-color: transparent;
+  padding: 0 6px;
+}
+.form-group4{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #000000;
+}
+
+.login-form-btn4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-left: 43%;
+}
+.form-btn4{
+  font-size: 13px;
+  border-radius: 13px;
+  border: none;
+  color: rgb(0,0,225);
+  line-height: 1.2;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 1rem;
+  height: 30px;
+  background-color: transparent;
+
+}
+.form-btn-14{
+  font-size: 13px;
+  border-radius: 13px;
+  border: none;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  background-color: blue;
+}
+
+.text-center4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-left: 7rem;
+}
+.coment4{
+  opacity: 60%;
+  font-size: 14px;
+  padding-left: 1px;
+}
