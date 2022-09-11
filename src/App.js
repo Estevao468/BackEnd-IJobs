@@ -29,6 +29,19 @@ const App = () => {
             <Link to="/perfil" className="Rotas">Perfil</Link>
             <Link to="/catalogo" className="Rotas">Catalogo</Link>
             </ul>
+            <div className="wrap6">
+            <div className="search6">
+            <input type="text" 
+             className="searchTerm6"  
+             id="input_text" 
+             onkeyup="search_animal()" 
+             name="search" 
+             placeholder="Buscar serviço"></input>
+         <button type="submit" className="searchButton6">
+         <i className="a-search6" />
+       </button>
+     </div>
+    </div>
         </div>
         <Routes>
            <Route path="/" element={<Home/>}/> 

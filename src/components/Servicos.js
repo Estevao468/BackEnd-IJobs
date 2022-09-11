@@ -12,19 +12,6 @@ function Catalogo(props){
     return(
         <div className="catalogo5">
             {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
-            {servico}
         </div>
         
     );

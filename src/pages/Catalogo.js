@@ -10,7 +10,7 @@ class Servicos {
         this.descricao = descricao;
    } 
 }
-var p1 = new Servicos('Nome do produto','Preço','Descrição');
+var p1 = new Servicos('Construção','200','Descrição');
 
 var servico = [p1];
 
