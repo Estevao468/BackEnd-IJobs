@@ -6,13 +6,17 @@ import Login from './pages/Login';
 import Servico from './pages/Servico';
 import Perfil from './pages/Perfil';
 import Editar from './pages/Editar';
+import Catalogo from './pages/Catalogo';
 import '../src/global.css';
+import foto from './img/logo.png'
 
 const App = () => {
       return (
         <Router>
           <div><span className="title">
-          <b>IJobs</b>
+          <b>IJobs
+          <img className='logo' src={foto}/>
+          </b>
           </span>
           </div>
         <div className="Cabecalho">
@@ -23,6 +27,7 @@ const App = () => {
             <Link to="/servico" className="Rotas">Servico</Link>
             <Link to="/editar" className="Rotas">Editar</Link>
             <Link to="/perfil" className="Rotas">Perfil</Link>
+            <Link to="/catalogo" className="Rotas">Catalogo</Link>
             </ul>
         </div>
         <Routes>
@@ -32,6 +37,7 @@ const App = () => {
            <Route path="/servico" element={<Servico/>}/>
            <Route path="/editar" element={<Editar/>}/>
            <Route path="/perfil" element={<Perfil/>}/>
+           <Route path="/catalogo" element={<Catalogo/>}/>
         </Routes>
     </Router>
 

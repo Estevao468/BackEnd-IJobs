@@ -1,12 +1,16 @@
 .title{
   display: flex;
-  color: rgb(255, 255, 255);
-  background-color: blue;
+  color: blue;
+  background-color: rgb(0, 0, 0);
   text-align: center;
   font-size: 40px;
-  padding: 10px 10px ;
+  padding: 10px 15px 10px;
   display: flex;
-
+}
+.logo{
+  width: 100px;
+  height: 90px;
+  overflow: hidden;
 }
 .Cabecalho{
     height: 8vmin;
@@ -800,4 +804,95 @@ input:checked + .slider3:before{
   opacity: 60%;
   font-size: 14px;
   padding-left: 1px;
+}
+/*/////////Perfil////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container5 {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.form-title5{
+  display: flex;
+  color: blue;
+  text-align: left;
+  font-size: 1.7rem;
+  padding: 1px 50px 30px 20px; 
+}
+.catalogo5{
+  padding: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  justify-content: center;
+  float:left; 
+  margin: 20px;
+  margin-bottom: 1rem;
+  font-size: 10px;
+  border-radius: 13px;
+}
+.text5{
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  overflow: hidden;
+  padding-left: 8px;
+  height: 25px;
+}
+.produto5{
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 90%;
+  height: 92%;
+  background-color: rgb(245, 245, 245);
+  font-size: 15px;
+  overflow: visible;
+  border-radius: 1rem;
+}
+.produto5 img{
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+
+}
+.container5 {
+  height: 100vmin;
+  width: 100%;
+  margin: 0rem;
+  display: block;
+  background-image: url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=900&t=st=1658409131~exp=1658409731~hmac=bd86f37af01d57a56644e4f617952ccac81a485c082cc22cd4a4b9157324d57c");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-form5{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .warp-login5{
+    width: 90%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    padding: 4rem 4rem 4rem 2rem;
+    border-radius: 1rem;
+  }
+.form-title5{
+  display: flex;
+  color: rgb(48, 48, 187);
+  text-align: left;
+  font-size: 2.3rem;
+  padding: 10px 20px 0px;
+}
+.form-group5{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.1rem 20px;
 }
